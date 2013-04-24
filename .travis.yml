@@ -1,0 +1,9 @@
+language: C
+compiler:
+  - gcc
+  - clang
+script:
+  - ./autogen.sh
+  - ./configure
+  - make
+  - make test
